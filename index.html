@@ -7,15 +7,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="landingpage.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
   </head>
-  <body style="height: 1000px; background-color: lavender; font-family:'Times New Roman', Times, serif">
+  <body>
       <!-- Main Navigation -->
+    <div style="height: 700px; font-family:'Times New Roman', Times, serif; background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(https://live.staticflickr.com/65535/49447163881_da0a3fe218.jpg); background-size: 100%;
+  background-repeat: no-repeat; color: white">
       <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container">
-                    <a class="navbar-brand" style="font-size: 30px; font-weight: bold; padding-right: 10px" href="#">iStudents</a>
+                    <a class="navbar-brand" style="font-size: 30px; font-weight: bold; padding-right: 10px" href="#">inStudents</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -25,7 +31,7 @@
                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">About</a>
+                          <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="register.html">Register</a>
@@ -40,17 +46,94 @@
       </header>
       <!-- Main Layout -->
       <main>
-        <h1 style="text-align: center; margin-top: 12%;">Welcome</h1>
-        <p class="welcome" style="text-align: center; margin-left: 21%; margin-right: 21%; font-size: 25px; padding-bottom: 30px;">Here at iStudents, learners from all around the globe gather to develop their skills remotely. Let us help you acquire a stronger skill set and build you a professional resume and online profile along with it. Join us today free by registering below!</p>
+        <h1 style="text-align: center; margin-top: 5%; padding-top: 13%;">Welcome</h1>
+        <p class="welcome" style="text-align: center; margin-left: 21%; margin-right: 21%; font-size: 25px; padding-bottom: 30px;">Here at inStudents, learners from all around the globe gather to develop their skills remotely. Let us help you acquire a stronger skill set and build you a professional resume and online profile along with it. Join us today free by registering below!</p>
         <div style="text-align: center">
-                <button type="button" class="btn btn-secondary"><a href="register.html" style="color: white">Register</a></button>
+                <button type="button" class="btn btn-secondary" style="background-color: green"><a href="register.html" style="color: white">Register</a></button>
                 
         </div>
       </main>
-      <!-- Footer -->
-      <footer>
+    </div>
 
-      </footer>
+
+    <!-- Services Section -->
+
+  <div class="container-fluid" id="services" style="font-family:'Times New Roman', Times, serif; margin-top: 5%;">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h2 style="padding-bottom: 2%;">Our Services</h2>
+      </div>
+      <hr>
+      <div class="col-12">
+        <p class="lead" style=" width: 55%; margin-left: 21%; padding-bottom: 4%;">We are a remote teaching company, offering skills development training, resume help, and personal coaching services to students from all over the world who are in need of access to a quality career training program.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!--- Three Column Section -->
+
+  <div class="container-fluid" style="font-family:'Times New Roman', Times, serif; padding-left: 5%; padding-right: 5%; padding-bottom: 5%;">
+  <div class="row text-center">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <i class="fas fa-edit"></i>
+      <h5>Skills Development</h5>
+      <p>We will train you in English, Programming, Writing, and Soft Skills.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="far fa-file-alt"></i>
+        <h5>Resume Help</h5>
+        <p>We also have a network of professionals who can help you write your resume.</p>
+    </div>
+      <div class="col-sm-12 col-md-4">
+          <i class="fas fa-users"></i>
+          <h5>Personal Coaching</h5>
+          <p>Our people want to give back and support the next generation. Just ask if you'd like a coach.</p>
+        </div>
+
+  </div>
+  </div>
+
+
+      <!-- Footer -->
+<footer>
+    <div class="container-fluid padding" id="contact" style="background-color: black; color: white; padding-top: 5%; font-family: 'Times New Roman', Times, serif;">
+    <div class="row"">
+      <div id="contact" class="col-md-4" style="padding-left: 15%;">
+        <hr class="light">
+        <h4 style="text-decoration: underline;">Contact</h4>
+        <hr class="light">
+        <p>+1 (213) 333-7654</p>
+        <p>info@instudents.com</p>
+        <p>1234 Street Name</p>
+        <p>Fountain Valley, CA 92728</p>
+      </div>
+      <div id="services" class="col-md-4" style="padding-left: 10%;">
+        <hr class="light">
+        <h4 style="text-decoration: underline;">Service Hours</h4>
+        <hr class="light">
+        <p>Monday: 9am - 6pm</p>
+        <p>Tuesday: 9am - 6pm</p>
+        <p>Wednesday: 9am - 6pm</p>
+        <p>Thursday: 9am - 6pm</p>
+        <p>Friday: 9am - 6pm</p>
+        
+      </div>
+      <div id="locations" class="col-md-4" style="padding-right: 10%;">
+          <hr class="light">
+          <h4 style="text-decoration: underline;">Office Locations</h4>
+          <hr class="light">
+          <p>Fountain Valley, CA, 92728</p>
+          <p>Los Angeles, CA, 90017</p>
+          <p>San Jose, CA, 95008</p>
+        </div>
+        <hr class="white">
+        <div class="col-12 text-center" style="margin-top: 5%; padding-top: 2%; border-top: 1px solid white;">
+          <p>&copy; DianaLim 2020</p>
+        </div>
+    </div>
+    </div>
+</footer>
    
 
     <!-- Optional JavaScript -->

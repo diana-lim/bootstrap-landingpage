@@ -1,0 +1,36 @@
+body {
+
+}
+.fa-edit {
+  color: #e54d26;
+}
+.fa-file-alt {
+  color: #000;
+}
+.fa-users {
+  color: #2163af;
+}
+.fa-edit, .fa-file-alt, .fa-users {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  
+  
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  #contact {
+    padding-left: 0;
+  } 
+  #services {
+    padding-left: 15%;
+  }
+  #locations {
+    padding-left: 15%;
+  }
+}
